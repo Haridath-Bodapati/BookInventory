@@ -25,3 +25,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+Open Your Browser and navigate to:
+
+Book List: http://localhost:4200/books
+Add a New Book: http://localhost:4200/new
+Edit an Existing Book: http://localhost:4200/edit/1
+Testing CRUD Operations:
+Create: Add a new book using the /new route.
+Read: View the list of books at the /books route.
+Update: Edit a book at the /edit/:id route.
+Delete: If implemented, test the delete functionality.
+
+json-server --watch db.json
+rmdir /s /q node_modules
+del package-lock.json
+npm cache clean --force
+npm install
+ng serve

@@ -1,0 +1,28 @@
+/* src/app/book-list/book-list.component.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn {
+    margin-left: 10px;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  
