@@ -1,4 +1,4 @@
-# BookInventory
+# BookManagement
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
 
@@ -25,26 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-
-json-server --watch db.json
-npm install
-ng serve
-
-If you face issues while starting server.
-Execute below commands and see whether they are resolving or not.
-rmdir /s /q node_modules
-del package-lock.json
-npm cache clean --force
-
-Open Your Browser and navigate to:
-
-Book List: http://localhost:4200/books
-Add a New Book: http://localhost:4200/new
-Edit an Existing Book: http://localhost:4200/edit/1
-Testing CRUD Operations:
-Create: Add a new book using the /new route.
-Read: View the list of books at the /books route.
-Update: Edit a book at the /edit/:id route.
-Delete: If implemented, test the delete functionality.
-
-
